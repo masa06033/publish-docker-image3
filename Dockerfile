@@ -1,3 +1,3 @@
-FROM ubuntu_1
+FROM ubuntu
 CMD echo "Hello, World!"
 
