@@ -9,7 +9,7 @@ jobs:
       - uses: docker/login-action@v1
         with: # Set the secret as an input
           username: ${{ secrets.DOCKER_USERNAME }}
-          passowrd: ${{ secrets.DOCKER_PASSWORD }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
       - name: Publish to GitHub Packages
         uses: docker/build-push-action@v1.1.0
         with:
